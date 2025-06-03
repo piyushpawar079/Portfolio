@@ -15,6 +15,33 @@ const fontSans = FontSans({
 export const metadata: Metadata = {
   title: 'Full Stack Developer Portfolio',
   description: 'Personal portfolio showcasing my projects and skills as a Full Stack Developer',
+  icons: {
+    icon: [
+      {
+        url: '/favicon.ico',
+        sizes: 'any',
+      },
+      {
+        url: '/icon.svg',
+        type: 'image/svg+xml',
+      },
+    ],
+    apple: [
+      {
+        url: '/apple-touch-icon.png',
+        sizes: '180x180',
+        type: 'image/png',
+      },
+    ],
+    other: [
+      {
+        rel: 'mask-icon',
+        url: '/safari-pinned-tab.svg',
+        color: '#000000',
+      },
+    ],
+  },
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
@@ -24,6 +51,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* Additional meta tags for better favicon support */}
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="msapplication-TileColor" content="#2b5797" />
+      </head>
       <body
         className={cn(
           'min-h-screen bg-background font-sans antialiased',
