@@ -112,16 +112,6 @@ export  const skills = [
     category: "DevOps & Tools"
   },
   {
-    name: "TensorFlow",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
-    category: "AI/ML"
-  },
-  {
-    name: "PyTorch",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg",
-    category: "AI/ML"
-  },
-  {
     name: "OpenCV",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg",
     category: "AI/ML"

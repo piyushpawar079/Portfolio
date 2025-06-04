@@ -6,6 +6,7 @@ import { ThemeProvider } from '@/components/theme-provider';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 import ToastProvider from '@/components/toast-provider';
+import { Analytics } from "@vercel/analytics/next"
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -72,6 +73,7 @@ export default function RootLayout({
             <Header />
             <main className="flex-1">
                 {children}
+                <Analytics />
                 <ToastProvider />
             </main>
             <Footer />
