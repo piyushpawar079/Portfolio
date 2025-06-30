@@ -26,25 +26,28 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    slug: "cv-portfolio",
-    title: "Computer Vision Application",
-    description: "A real-time computer vision web application featuring multiple interactive demos including virtual mouse, virtual painter, volume control, pong game, fitness tracker, and presentation controller.",
-    image: "/cv_portfolio/Home_Page.png",
-    techStack: ["Next.js", "TypeScript", "TailwindCSS", "ShadCN", "Flask", "Socket IO", "OpenCV", "MediaPipe"],
-    githubUrl: "https://github.com/piyushpawar079/CV_Portfolio",
-    liveUrl: "https://cv-portfolio-ruby.vercel.app",
+    slug: "notesync",
+    title: "noteSync",
+    description: "An AI-powered Notion clone with real-time collaboration features including live cursors, live rich text editing, AI chat.",
+    image: "/notesync/Home_Page.png",
+    techStack: ["Next.js", "TypeScript", "Clerk Auth", "Cloudflare Workers", "Liveblocks", "Firebase", "Hono", "shadcn/ui", "Tailwind CSS", "BlockNote Editor"],
+    githubUrl: "https://github.com/piyushpawar079/notesync",
+    liveUrl: "https://note-sync-five.vercel.app",
+    demoVideo: "/noteSync/Demo_Video.mp4",
     content: [
-      "🖱️ Virtual Mouse: Control your cursor with hand gestures",
-      "🎨 Virtual Painter: Draw in the air with finger tracking",
-      "🔊 Volume Control: Adjust system volume using hand movements",
-      "🏓 Pong Game: Play a classic game using your hands as paddles",
-      "🏋️‍♂️ Fitness Tracker: Track your workouts and count reps with real-time feedback",
-      "📊 Presentation Controller: Navigate slides using hand gestures",
+      "🤝 Real-time Collaboration: Multiple users can edit the same document simultaneously with live cursors showing exactly where each collaborator is working, each with unique colors for easy identification",
+      "🤖 AI Document Chat: Powered by Gemini AI, users can ask questions about their document content and get instant, contextual answers based on the entire document",
+      "📝 Smart Summarization: Generate intelligent document summaries using Facebook's BART model via Cloudflare Workers AI",
+      "👥 Presence Indicators: See the number of active users editing the document with user avatars displayed in real-time",
+      "🔐 Secure Authentication: Complete user management with Clerk authentication - users must be signed in to access any features",
+      "📄 Document Management: Create, delete, and manage multiple documents with ownership controls - only document owners can delete documents or invite collaborators",
+      "⚡ Powered by Cutting-edge AI: Leverages @cf/facebook/bart-large-cnn for summarization, @cf/meta/m2m100-1.2b for translation, and Gemini for conversational AI"
     ],
     additionalImages: [
-      "/cv_portfolio/Projects_Page.png",
-      "/cv_portfolio/Single_Project_Page.png",
-      "/cv_portfolio/Contact_Page.png",
+      "/notesync/Multi_User.png",
+      "/noteSync/Editor_Page.png",
+      "/notesync/Document_Page.png",
+      "/notesync/Chat.png"
     ]
   },
   {
@@ -71,6 +74,29 @@ export const projects: Project[] = [
   },
   {
     id: 4,
+    slug: "cv-portfolio",
+    title: "Computer Vision Application",
+    description: "A real-time computer vision web application featuring multiple interactive demos including virtual mouse, virtual painter, volume control, pong game, fitness tracker, and presentation controller.",
+    image: "/cv_portfolio/Home_Page.png",
+    techStack: ["Next.js", "TypeScript", "TailwindCSS", "ShadCN", "Flask", "Socket IO", "OpenCV", "MediaPipe"],
+    githubUrl: "https://github.com/piyushpawar079/CV_Portfolio",
+    liveUrl: "https://cv-portfolio-ruby.vercel.app",
+    content: [
+      "🖱️ Virtual Mouse: Control your cursor with hand gestures",
+      "🎨 Virtual Painter: Draw in the air with finger tracking",
+      "🔊 Volume Control: Adjust system volume using hand movements",
+      "🏓 Pong Game: Play a classic game using your hands as paddles",
+      "🏋️‍♂️ Fitness Tracker: Track your workouts and count reps with real-time feedback",
+      "📊 Presentation Controller: Navigate slides using hand gestures",
+    ],
+    additionalImages: [
+      "/cv_portfolio/Projects_Page.png",
+      "/cv_portfolio/Single_Project_Page.png",
+      "/cv_portfolio/Contact_Page.png",
+    ]
+  },
+  {
+    id: 5,
     slug: "music-verse",
     title: "MusicVerse",
     description: "MusicVerse is a beautifully designed, fully responsive platform for discovering and purchasing premium music courses online.",
@@ -91,7 +117,7 @@ export const projects: Project[] = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     slug: "e-commerce",
     title: "MernWare",
     description: "A fully functional e-commerce website for clothing, built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).",
