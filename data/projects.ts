@@ -29,7 +29,7 @@ export const projects: Project[] = [
     slug: "notesync",
     title: "noteSync",
     description: "An AI-powered Notion clone with real-time collaboration features including live cursors, live rich text editing, AI chat.",
-    image: "/notesync/Home_Page.png",
+    image: "/noteSync/Home_Page.png",
     techStack: ["Next.js", "TypeScript", "Clerk Auth", "Cloudflare Workers", "Liveblocks", "Firebase", "Hono", "shadcn/ui", "Tailwind CSS", "BlockNote Editor"],
     githubUrl: "https://github.com/piyushpawar079/notesync",
     liveUrl: "https://note-sync-five.vercel.app",
@@ -44,10 +44,10 @@ export const projects: Project[] = [
       "⚡ Powered by Cutting-edge AI: Leverages @cf/facebook/bart-large-cnn for summarization, @cf/meta/m2m100-1.2b for translation, and Gemini for conversational AI"
     ],
     additionalImages: [
-      "/notesync/Multi_User.png",
+      "/noteSync/Multi_User.png",
       "/noteSync/Editor_Page.png",
-      "/notesync/Document_Page.png",
-      "/notesync/Chat.png"
+      "/noteSync/Document_Page.png",
+      "/noteSync/Chat.png"
     ]
   },
   {
