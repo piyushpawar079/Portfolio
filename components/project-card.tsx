@@ -96,7 +96,7 @@ const ProjectCard = ({ project, index = 0 }: ProjectCardProps) => {
                 >
                   <Link href={project.liveUrl} target="_blank">
                     <Globe className="h-4 w-4 mr-2" />
-                    Live Demo
+                    Live Link
                   </Link>
                 </Button>
               )}
@@ -192,7 +192,7 @@ const ProjectCard = ({ project, index = 0 }: ProjectCardProps) => {
               >
                 <Link href={project.liveUrl} target="_blank" className="gap-2">
                   <Globe className="h-4 w-4 group-hover/btn:rotate-12 transition-transform duration-300" />
-                  Demo
+                  Live Link
                 </Link>
               </Button>
             )}

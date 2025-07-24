@@ -52,7 +52,7 @@ export default function ProjectPageClient({ project }: { project: Project}) {
                   <Button asChild size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transition-all duration-300">
                     <Link href={project.liveUrl} target="_blank" className="gap-2">
                       <Globe className="h-5 w-5" />
-                      View Live Demo
+                      Live Link
                       <ExternalLink className="h-4 w-4" />
                     </Link>
                   </Button>
@@ -223,7 +223,7 @@ export default function ProjectPageClient({ project }: { project: Project}) {
                 >
                   <Link href={project.liveUrl} target="_blank" className="gap-2">
                     <Globe className="h-5 w-5" />
-                    Live Demo
+                    Live Link
                   </Link>
                 </Button>
               )}
